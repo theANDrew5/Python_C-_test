@@ -13,11 +13,13 @@ class Some
 {
 
 public:
-    Some();
-    Some( int some_id, string const& name );
     static const int NOT_AN_IDENTIFIER = -1;
 
-    static int ID() const;
+    Some();
+    Some( int some_id, string const& name );
+
+
+    int ID() const;
     string const& Name() const;
 
     void ResetID();
