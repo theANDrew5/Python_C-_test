@@ -2,8 +2,8 @@
 // Created by User on 22-Apr-20.
 //
 
-#ifndef _BOOST_C___PYTHON_SOME_H
-#define _BOOST_C___PYTHON_SOME_H
+#ifndef _BOOST_C_PYTHON_SOME_H
+#define _BOOST_C_PYTHON_SOME_H
 
 #include <string>
 
@@ -13,7 +13,7 @@ class Some
 {
 
 public:
-    static const int NOT_AN_IDENTIFIER = -1;
+    const int NOT_AN_IDENTIFIER = -1;
 
     Some();
     Some( int some_id, string const& name );
@@ -36,4 +36,4 @@ private:
 
 
 
-#endif //_BOOST_C___PYTHON_SOME_H
+#endif //_BOOST_C_PYTHON_SOME_H
